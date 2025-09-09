@@ -7,13 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
+    <header>
+        <nav>
+            <h1>Cricket Game</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+               <div class="container">
         <h1>Cricket Game</h1>
         <div class="about">You Are Batting</div>
         <div class="player-container">
-            <h3>Player <span class="player-score">0</span></h3>
-            <h3>computer <span class="computer-score">0</span></h3>
-            <h3 class="target">Target <span class="target-score">0</span></h3>
+            <div >
+                <h2>Player</h2>
+                <h3 class="player-score">0</h3>
+            </div>
+
+             <div >
+                <h2>Computer</h2>
+                <h3 class="computer-score">0</h3>
+            </div>
+
+            <div >
+                <h2 class="target">Target</h2>
+                <h3 class="target-score">0</h3>
+            </div>
+
         </div>
         <div class="buttons">
             <button class="btn" id="btn" data-value="1">1</button>
@@ -28,6 +47,8 @@
         <button class="reset">New Game</button>
         </div>
    </div>
+        </section>
+    </main>
 
     <script src="./script.js"></script>
 </body>

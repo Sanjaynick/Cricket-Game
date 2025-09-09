@@ -43,7 +43,7 @@ function playerChoose(playerChoice){
          playerOut = true;
          battingSide = 'computer'
          targetScoreVal = playerScoreVal +1
-         targetScore.textContent = targetScoreVal;
+         targetScore.textContent =   targetScoreVal;
          about.textContent = `Player Out !!!!!!! `;
          statusVal.textContent = `Player Score ${playerScoreVal} || Computer need's ${targetScoreVal} Runs`
         target.style.display = 'flex'
@@ -105,7 +105,7 @@ restartBtn.addEventListener('click', () => {
     playerScoreVal = 0;
     computerScoreVal = 0;
     targetScoreVal = 0;
-    target.style.display = 'none'
+    target.style.display = 'block'
     restartBtn.style.display = 'none'
     about.textContent = "You Are Batting";
     playerScore.textContent = 0;
